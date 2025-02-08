@@ -1,0 +1,20 @@
+{
+  "name": "simple-python-pyinstaller-app",
+  "version": "1.0.0",
+  "description": "This repository is for the\r [Build a Python app with PyInstaller](https://jenkins.io/doc/tutorials/build-a-python-app-with-pyinstaller/)\r tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agung1919/simple-python-pyinstaller-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agung1919/simple-python-pyinstaller-app/issues"
+  },
+  "homepage": "https://github.com/agung1919/simple-python-pyinstaller-app#readme"
+}
