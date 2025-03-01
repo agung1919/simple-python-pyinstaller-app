@@ -4,5 +4,12 @@ node {
             checkout scm
             sh 'npm install'
         }
+        stage('Deploy') { 
+            steps {
+                sh './jenkins/scripts/deliver.sh' 
+                input message: 'Sudah selesai menggunakan pyinstaller App? (Klik "Proceed" untuk mengakhiri)' 
+                sh './jenkins/scripts/kill.sh' 
+            }
+        }
     }
 }
